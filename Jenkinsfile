@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build image') {
-       app = docker.build("anastasija-c/jenkins-blueocean")
+       app = docker.build("anastasija-c/jenkins-blueocean"), branch:'dev'
     }
     stage('Push image') {   
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
