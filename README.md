@@ -1,2 +1,2 @@
 # jenkins-blueocean
-Repo for the Jenkins homework, for the DevOps course at FCSE.
+Jenkins homework repo for the DevOps course at FCSE.
